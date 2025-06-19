@@ -8,33 +8,69 @@
 </head>
 <body>
   <header>
-    <h1>Doug Mulka</h1>
-    <p>Software Developer | Embedded Engineer | Problem Solver</p>
+    <div class="intro">
+      <img src="headshot.jpg" alt="Doug Mulka" class="headshot"/>
+      <h1>Doug Mulka</h1>
+      <p>Software Developer | Embedded Engineer</p>
+      <p class="tagline">Building practical, scalable, and impactful software + hardware solutions.</p>
+    </div>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section class="about">
+  <section id="about">
     <h2>About Me</h2>
-    <p>I’m a developer with a background in electrical engineering and a passion for software, hardware, and AI. I build practical tools and systems that solve real problems.</p>
+    <p>I’m a developer with an electrical engineering degree and 4 years of software development experience. I'm passionate about embedded systems, automation, and bringing hardware and software together. I’m looking for a role where I can contribute to innovative engineering projects while growing in a collaborative team environment.</p>
+    <p>Outside of work, I enjoy skiing, rock climbing, and exploring the intersection of AI and control systems.</p>
   </section>
 
-  <section class="resume">
-    <h2>Experience & Skills</h2>
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Process Automation Suite</h3>
+      <img src="project1.png" alt="Project screenshot" class="project-img"/>
+      <p>Automated manual production reporting tasks using VB.NET, reducing reporting time by 80% and improving data accuracy.</p>
+      <p><strong>Tech:</strong> VB.NET, Windows Forms</p>
+      <p><a href="https://github.com/yourusername/project1" target="_blank">View Code</a></p>
+    </div>
+
+    <div class="project">
+      <h3>Embedded Sensor Dashboard</h3>
+      <img src="project2.png" alt="Embedded dashboard" class="project-img"/>
+      <p>Developed a dashboard for real-time sensor data visualization on an STM32 board using C and UART communication.</p>
+      <p><strong>Tech:</strong> C, STM32, UART, Embedded C</p>
+      <p><a href="https://github.com/yourusername/project2" target="_blank">View Code</a></p>
+    </div>
+
+    <div class="project">
+      <h3>UI Redesign for Internal Tooling</h3>
+      <img src="project3.png" alt="UI redesign" class="project-img"/>
+      <p>Redesigned an internal manufacturing dashboard for usability and performance, reducing training time and error rates.</p>
+      <p><strong>Tech:</strong> VB.NET, WinForms, UX principles</p>
+      <p><a href="https://github.com/yourusername/project3" target="_blank">View Code</a></p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume & Experience</h2>
     <ul>
-      <li>4 years of professional software development (VB.NET, C#, etc.)</li>
-      <li>Experience in embedded systems, automation, and UI redesign</li>
-      <li>Strong foundation in electrical engineering and control theory</li>
+      <li><strong>Software Developer</strong>, 2020–Present — Full-stack dev in manufacturing industry</li>
+      <li><strong>BS in Electrical Engineering</strong> — Class of 2020</li>
+      <li>Skills: VB.NET, C#, C, Git, SQL, Embedded Systems, Control Theory, Signal Processing</li>
     </ul>
+    <p><a href="Doug_Mulka_Resume.pdf" target="_blank">Download PDF Resume</a></p>
   </section>
 
-  <section class="contact" id="contact">
+  <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:doug@example.com">doug@example.com</a></p>
-    <p><a href="https://github.com/yourusername" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+    <p>Email: <a href="mailto:doug[at]example[dot]com">doug[at]example[dot]com</a></p>
+    <p><a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+       <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
   </section>
 
   <footer>
