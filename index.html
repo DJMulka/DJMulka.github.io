@@ -1,307 +1,329 @@
-<html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doug Mulka - Software Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doug Mulka - Software Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
+
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">Doug Mulka</div>
-            <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Doug Mulka</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-image">👨‍💻</div>
-            <h1 class="hero-title">Doug Mulka</h1>
-            <h2 class="hero-subtitle">Senior Software Developer &amp; Controls Engineer</h2>
-            <p class="hero-description">
-                Specializing in augmented reality solutions, industrial automation, and machine learning systems. 
-                Patent holder with expertise in optimizing manufacturing workflows and reducing operational costs.
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-image">Doug</div>
+      <div class="profile-photo"></div>
+      <h1 class="hero-title">Doug Mulka</h1>
+      <h2 class="hero-subtitle">Senior Software Developer &amp; Electrical Engineer</h2>
+      <p class="hero-description">
+        Specializing in augmented reality solutions and industrial automation with a passion for artificial
+        intelligence and machine learning.
+      </p>
+      <a href="#projects" class="cta-button">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a Senior Software Developer with a unique background in electrical engineering and industrial
+            automation.
+            I specialize in creating innovative augmented reality solutions and machine learning systems that optimize
+            manufacturing workflows and drive significant cost savings.
+          </p>
+          <p>
+            With experience spanning automotive manufacturing at General Motors, ADAS development at Delphi/Aptiv,
+            and cutting-edge AR solutions at LightGuide Inc., I bring a multidisciplinary approach to problem-solving.
+            I'm passionate about bridging the gap between software and hardware to create intelligent industrial
+            systems.
+          </p>
+          <p>
+            I hold 2 patents in automation technology and have delivered solutions that generated $17M in cost savings
+            while achieving remarkable improvements in throughput and quality. I'm excited to bring this expertise to
+            forward-thinking teams tackling complex technical challenges.
+          </p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-tag">C#/.NET</div>
+          <div class="skill-tag">Visual Basic</div>
+          <div class="skill-tag">Python</div>
+          <div class="skill-tag">JavaScript</div>
+          <div class="skill-tag">SQL</div>
+          <div class="skill-tag">C/C++</div>
+          <div class="skill-tag">MATLAB</div>
+          <div class="skill-tag">Machine Learning</div>
+          <div class="skill-tag">AR/VR</div>
+          <div class="skill-tag">PLC Integration</div>
+          <div class="skill-tag">IoT/IIoT</div>
+          <div class="skill-tag">Machine Vision</div>
+          <div class="skill-tag">Azure Kinect</div>
+          <div class="skill-tag">Git</div>
+          <div class="skill-tag">Agile</div>
+          <div class="skill-tag">TDD</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3 class="project-title">AR-Driven Manufacturing Optimization</h3>
+          <div class="project-media">
+            <img src="Resources/Projects/SonarV1.png" alt="AR Manufacturing Demo" class="project-image">
+          </div>
+          <p class="project-description">
+            Designed and deployed augmented reality solutions that increased manufacturing throughput while
+            reducing defects. Integrated with SQL databases, MES platforms, and PLCs to enable fully
+            automated AR-driven workflows for factory operations.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">C#</span>
+            <span class="tech-tag">AR/VR</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">PLC Integration</span>
+            <span class="tech-tag">Azure Kinect</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Case Study →</a>
+            <a href="#" class="project-link">Patents →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-title">ML-Powered Part-Kitting System</h3>
+          <div class="project-media">
+            <video class="project-video" controls poster="Resources/Projects/thumb.JPEG">
+              <source src="Resources/Projects/SonarV1.png" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p class="project-description">
+            Led development of a machine learning system that reduced assembly time by 32% and achieved
+            zero defects in manufacturing. Implemented computer vision and predictive algorithms to
+            optimize part selection and placement workflows.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Machine Learning</span>
+            <span class="tech-tag">Computer Vision</span>
+            <span class="tech-tag">Cognex In-Sight</span>
+            <span class="tech-tag">.NET</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Results →</a>
+            <a href="#" class="project-link">Technical Details →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-title">Asynchronous Control System</h3>
+          <p class="project-description">
+            Implemented a custom control system integrating 30+ sensors, cameras, actuators, and networked
+            components. Realized $17M in cost savings for aerospace operations through optimized automation
+            and real-time monitoring capabilities.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">C++</span>
+            <span class="tech-tag">Real-time Systems</span>
+            <span class="tech-tag">IoT/IIoT</span>
+            <span class="tech-tag">TCP/IP</span>
+            <span class="tech-tag">Modbus</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Architecture →</a>
+            <a href="#" class="project-link">Impact Report →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-title">Automated Diagnostic Tool</h3>
+          <p class="project-description">
+            Invented an automated internal diagnostic and pre-integration tool that cut system configuration
+            time by over 70%. Features automated component testing, configuration validation, and
+            comprehensive reporting for manufacturing systems.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Visual Basic</span>
+            <span class="tech-tag">WinForms</span>
+            <span class="tech-tag">Serial Communication</span>
+            <span class="tech-tag">Test Automation</span>
+            <span class="tech-tag">SQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Demo →</a>
+            <a href="#" class="project-link">Documentation →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-title">Precision Optical Alignment System</h3>
+          <p class="project-description">
+            Developed a microcontroller-based precision optical alignment stage actuator achieving 0.01 cm
+            precision for ADAS applications. Integrated with LiDAR and radar systems for automotive
+            sensor calibration and testing.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">C</span>
+            <span class="tech-tag">Arduino</span>
+            <span class="tech-tag">RTOS</span>
+            <span class="tech-tag">I2C</span>
+            <span class="tech-tag">MATLAB</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Specifications →</a>
+            <a href="#" class="project-link">Testing Data →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-title">Package Management Automation</h3>
+          <p class="project-description">
+            Created a comprehensive package management tool to automate work instruction transfers for
+            system cloning and maintenance. Eliminated manual migration work and reduced deployment
+            errors across manufacturing installations.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">C#</span>
+            <span class="tech-tag">Database Design</span>
+            <span class="tech-tag">API Communication</span>
+            <span class="tech-tag">PowerBI</span>
+            <span class="tech-tag">DevOps</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Workflow →</a>
+            <a href="#" class="project-link">GitHub →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="experience-timeline">
+        <div class="experience-item">
+          <div class="experience-card">
+            <h3 class="experience-title">Senior Software Developer</h3>
+            <div class="experience-company">LightGuide Inc.</div>
+            <div class="experience-period">2021 - 2025</div>
+            <p class="experience-description">
+              Led development of augmented reality solutions that increased manufacturing throughput and reduced
+              defects.
+              Filed 2 patents in automation technology and realized $17M in cost savings for aerospace operations.
+              Managed full software development lifecycle from requirements gathering to on-site installation and
+              support.
+              Developed machine learning-powered systems achieving 32% reduction in assembly time with zero defects.
             </p>
-            <a href="#projects" class="cta-button">View My Work</a>
+          </div>
         </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm a Senior Software Developer with a unique background in electrical engineering and industrial automation. 
-                        I specialize in creating innovative augmented reality solutions and machine learning systems that optimize 
-                        manufacturing workflows and drive significant cost savings.
-                    </p>
-                    <p>
-                        With experience spanning automotive manufacturing at General Motors, ADAS development at Delphi/Aptiv, 
-                        and cutting-edge AR solutions at LightGuide Inc., I bring a multidisciplinary approach to problem-solving. 
-                        I'm passionate about bridging the gap between software and hardware to create intelligent industrial systems.
-                    </p>
-                    <p>
-                        I hold 2 patents in automation technology and have delivered solutions that generated $17M in cost savings 
-                        while achieving remarkable improvements in throughput and quality. I'm excited to bring this expertise to 
-                        forward-thinking teams tackling complex technical challenges.
-                    </p>
-                </div>
-                <div class="skills-grid">
-                    <div class="skill-tag">C#/.NET</div>
-                    <div class="skill-tag">Visual Basic</div>
-                    <div class="skill-tag">Python</div>
-                    <div class="skill-tag">JavaScript</div>
-                    <div class="skill-tag">SQL</div>
-                    <div class="skill-tag">C/C++</div>
-                    <div class="skill-tag">MATLAB</div>
-                    <div class="skill-tag">Machine Learning</div>
-                    <div class="skill-tag">AR/VR</div>
-                    <div class="skill-tag">PLC Integration</div>
-                    <div class="skill-tag">IoT/IIoT</div>
-                    <div class="skill-tag">Machine Vision</div>
-                    <div class="skill-tag">Azure Kinect</div>
-                    <div class="skill-tag">Git</div>
-                    <div class="skill-tag">Agile</div>
-                    <div class="skill-tag">TDD</div>
-                </div>
-            </div>
+        <div class="experience-item">
+          <div class="experience-card">
+            <h3 class="experience-title">Controls Engineer</h3>
+            <div class="experience-company">General Motors</div>
+            <div class="experience-period">2019 - 2020</div>
+            <p class="experience-description">
+              Increased production throughput by 17% through commissioning robotic workstations with Fanuc robots
+              and Allen-Bradley systems. Reduced unplanned downtime by over 2 hours through ladder logic optimization.
+              Reviewed and updated electrical schematics for factory automation projects, ensuring safety compliance
+              and supporting future scalability.
+            </p>
+          </div>
         </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3 class="project-title">AR-Driven Manufacturing Optimization</h3>
-                    <p class="project-description">
-                        Designed and deployed augmented reality solutions that increased manufacturing throughput while 
-                        reducing defects. Integrated with SQL databases, MES platforms, and PLCs to enable fully 
-                        automated AR-driven workflows for factory operations.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">C#</span>
-                        <span class="tech-tag">AR/VR</span>
-                        <span class="tech-tag">SQL</span>
-                        <span class="tech-tag">PLC Integration</span>
-                        <span class="tech-tag">Azure Kinect</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Case Study →</a>
-                        <a href="#" class="project-link">Patents →</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3 class="project-title">ML-Powered Part-Kitting System</h3>
-                    <p class="project-description">
-                        Led development of a machine learning system that reduced assembly time by 32% and achieved 
-                        zero defects in manufacturing. Implemented computer vision and predictive algorithms to 
-                        optimize part selection and placement workflows.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Machine Learning</span>
-                        <span class="tech-tag">Computer Vision</span>
-                        <span class="tech-tag">Cognex In-Sight</span>
-                        <span class="tech-tag">.NET</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Results →</a>
-                        <a href="#" class="project-link">Technical Details →</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3 class="project-title">Asynchronous Control System</h3>
-                    <p class="project-description">
-                        Implemented a custom control system integrating 30+ sensors, cameras, actuators, and networked 
-                        components. Realized $17M in cost savings for aerospace operations through optimized automation 
-                        and real-time monitoring capabilities.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">C++</span>
-                        <span class="tech-tag">Real-time Systems</span>
-                        <span class="tech-tag">IoT/IIoT</span>
-                        <span class="tech-tag">TCP/IP</span>
-                        <span class="tech-tag">Modbus</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Architecture →</a>
-                        <a href="#" class="project-link">Impact Report →</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3 class="project-title">Automated Diagnostic Tool</h3>
-                    <p class="project-description">
-                        Invented an automated internal diagnostic and pre-integration tool that cut system configuration 
-                        time by over 70%. Features automated component testing, configuration validation, and 
-                        comprehensive reporting for manufacturing systems.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Visual Basic</span>
-                        <span class="tech-tag">WinForms</span>
-                        <span class="tech-tag">Serial Communication</span>
-                        <span class="tech-tag">Test Automation</span>
-                        <span class="tech-tag">SQL</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Demo →</a>
-                        <a href="#" class="project-link">Documentation →</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3 class="project-title">Precision Optical Alignment System</h3>
-                    <p class="project-description">
-                        Developed a microcontroller-based precision optical alignment stage actuator achieving 0.01 cm 
-                        precision for ADAS applications. Integrated with LiDAR and radar systems for automotive 
-                        sensor calibration and testing.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">C</span>
-                        <span class="tech-tag">Arduino</span>
-                        <span class="tech-tag">RTOS</span>
-                        <span class="tech-tag">I2C</span>
-                        <span class="tech-tag">MATLAB</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Specifications →</a>
-                        <a href="#" class="project-link">Testing Data →</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3 class="project-title">Package Management Automation</h3>
-                    <p class="project-description">
-                        Created a comprehensive package management tool to automate work instruction transfers for 
-                        system cloning and maintenance. Eliminated manual migration work and reduced deployment 
-                        errors across manufacturing installations.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">C#</span>
-                        <span class="tech-tag">Database Design</span>
-                        <span class="tech-tag">API Communication</span>
-                        <span class="tech-tag">PowerBI</span>
-                        <span class="tech-tag">DevOps</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Workflow →</a>
-                        <a href="#" class="project-link">GitHub →</a>
-                    </div>
-                </div>
-            </div>
+        <div class="experience-item">
+          <div class="experience-card">
+            <h3 class="experience-title">Electrical Engineer</h3>
+            <div class="experience-company">Delphi / Aptiv</div>
+            <div class="experience-period">2017 - 2019</div>
+            <p class="experience-description">
+              Achieved 0.01 cm precision through development of microcontroller-based precision optical alignment
+              systems.
+              Improved ADAS feature reliability by executing over 350 hours of on-road vehicle testing for adaptive
+              cruise control and traffic jam assist. Detected and resolved 15 sensor anomalies through comprehensive
+              analysis of LiDAR and radar datasets.
+            </p>
+          </div>
         </div>
-    </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="experience-timeline">
-                <div class="experience-item">
-                    <div class="experience-card">
-                        <h3 class="experience-title">Senior Software Developer</h3>
-                        <div class="experience-company">LightGuide Inc.</div>
-                        <div class="experience-period">2021 - 2025</div>
-                        <p class="experience-description">
-                            Led development of augmented reality solutions that increased manufacturing throughput and reduced defects. 
-                            Filed 2 patents in automation technology and realized $17M in cost savings for aerospace operations. 
-                            Managed full software development lifecycle from requirements gathering to on-site installation and support. 
-                            Developed machine learning-powered systems achieving 32% reduction in assembly time with zero defects.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="experience-card">
-                        <h3 class="experience-title">Controls Engineer</h3>
-                        <div class="experience-company">General Motors</div>
-                        <div class="experience-period">2019 - 2020</div>
-                        <p class="experience-description">
-                            Increased production throughput by 17% through commissioning robotic workstations with Fanuc robots 
-                            and Allen-Bradley systems. Reduced unplanned downtime by over 2 hours through ladder logic optimization. 
-                            Reviewed and updated electrical schematics for factory automation projects, ensuring safety compliance 
-                            and supporting future scalability.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="experience-card">
-                        <h3 class="experience-title">Electrical Engineer</h3>
-                        <div class="experience-company">Delphi / Aptiv</div>
-                        <div class="experience-period">2017 - 2019</div>
-                        <p class="experience-description">
-                            Achieved 0.01 cm precision through development of microcontroller-based precision optical alignment systems. 
-                            Improved ADAS feature reliability by executing over 350 hours of on-road vehicle testing for adaptive 
-                            cruise control and traffic jam assist. Detected and resolved 15 sensor anomalies through comprehensive 
-                            analysis of LiDAR and radar datasets.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="experience-card">
-                        <h3 class="experience-title">Bachelor of Science in Electrical Engineering</h3>
-                        <div class="experience-company">Kettering University</div>
-                        <div class="experience-period">Graduated 2020 - Cum Laude</div>
-                        <p class="experience-description">
-                            Graduated Cum Laude with a strong foundation in electrical engineering principles, control systems, 
-                            and embedded programming. Developed expertise in both hardware and software integration that would 
-                            become instrumental in bridging the gap between electrical engineering and software development.
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="experience-item">
+          <div class="experience-card">
+            <h3 class="experience-title">Bachelor of Science in Electrical Engineering</h3>
+            <div class="experience-company">Kettering University</div>
+            <div class="experience-period">Graduated 2020 - Cum Laude</div>
+            <p class="experience-description">
+              Graduated Cum Laude with a strong foundation in electrical engineering principles, control systems,
+              and embedded programming. Developed expertise in both hardware and software integration that would
+              become instrumental in bridging the gap between electrical engineering and software development.
+            </p>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Let's Connect</h2>
-            <div class="contact-content">
-                <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 2rem;">
-                    I'm passionate about solving complex technical challenges and creating innovative solutions that drive real business impact. 
-                    Let's discuss how my expertise in AR, automation, and machine learning can benefit your organization.
-                </p>
-                <div class="contact-links">
-                    <a href="mailto:dougmulka@gmail.com" class="contact-link">
-                        📧 Email
-                    </a>
-                    <a href="https://linkedin.com/in/doug-mulka" class="contact-link">
-                        💼 LinkedIn
-                    </a>
-                    <a href="https://github.com/dougmulka" class="contact-link">
-                        🐙 GitHub
-                    </a>
-                    <a href="tel:17166983557" class="contact-link">
-                        📞 Call
-                    </a>
-                    <a href="#" class="contact-link">
-                        📄 Resume
-                    </a>
-                </div>
-            </div>
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <div class="contact-content">
+        <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 2rem;">
+          I'm passionate about solving complex technical challenges and creating innovative solutions that drive real
+          business impact.
+          Let's discuss how my expertise in AR, automation, and machine learning can benefit your organization.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:dougmulka@gmail.com" target="_blank" class="contact-link">
+            📧 Email
+          </a>
+          <a href="https://www.linkedin.com/in/doug-mulka-7605a2286/" target="_blank" class="contact-link">
+            💼 LinkedIn
+          </a>
+          <a href="https://github.com/DJMulka?tab=overview&from=2025-06-01&to=2025-06-27" target="_blank"
+            class="contact-link">
+            🐙 GitHub
+          </a>
+          <a href="tel:17166983557" target="_blank" class="contact-link">
+            📞 Call
+          </a>
+          <a href="Resources\Doug Mulka 2025 Resume.pdf" target="_blank" class="contact-link">
+            📄 Resume
+          </a>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>© 2025 Doug Mulka - Senior Software Developer &amp; Controls Engineer. Patent Holder | Industrial Automation Expert</p>
-    </footer>
-    </body>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Doug Mulka - Senior Software Developer &amp; Electrical Engineer | Augmented Reality | Industrial
+      Automation</p>
+  </footer>
+</body>
+
 </html>

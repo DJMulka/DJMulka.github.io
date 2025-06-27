@@ -161,6 +161,20 @@
      animation: fadeInUp 1s ease-out 0.8s both;
  }
 
+ .profile-photo {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     background-image: url(Resources/profile.jpg);
+     background-size: cover;
+     background-position: center;
+     margin: 2rem auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     animation: fadeInUp 1s ease-out 0.8s both;
+ }
+
  /* Section Styles */
  .section {
      padding: 5rem 0;
@@ -265,6 +279,39 @@
      font-size: 1.5rem;
      margin-bottom: 1rem;
      color: var(--text-primary);
+ }
+
+ .project-media {
+     margin-bottom: 1.5rem;
+     border-radius: 10px;
+     overflow: hidden;
+     background: var(--bg-secondary, #1a1a1a);
+ }
+
+ .project-image {
+     width: 100%;
+     height: 200px;
+     object-fit: cover;
+     object-position: center;
+     display: block;
+     transition: transform 0.3s ease;
+ }
+
+ .project-image:hover {
+     transform: scale(1.05);
+ }
+
+ .project-video {
+     width: 100%;
+     height: 200px;
+     display: block;
+     background: var(--bg-secondary, #1a1a1a);
+ }
+
+ /* Optional: Hide media container if no media is present */
+ .project-media:empty {
+     display: none;
+     margin-bottom: 0;
  }
 
  .project-description {
@@ -416,6 +463,7 @@
          opacity: 0;
          transform: translateY(30px);
      }
+
      to {
          opacity: 1;
          transform: translateY(0);
