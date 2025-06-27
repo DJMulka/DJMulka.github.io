@@ -45,7 +45,7 @@
       <div class="about-content">
         <div class="about-text">
           <p>
-            I'm a Senior Software Developer with a unique background in electrical engineering and industrial
+            I'm a Senior Software Developer with a unique background in electrical engineering and augmented reality
             automation.
             I specialize in creating innovative augmented reality solutions and machine learning systems that optimize
             manufacturing workflows and drive significant cost savings.
@@ -57,7 +57,8 @@
             systems.
           </p>
           <p>
-            I hold 2 patents in automation technology and have delivered solutions that generated $17M in cost savings
+            I have 2 patents pending in automation technology and have delivered solutions that generated millions in
+            cost savings
             while achieving remarkable improvements in throughput and quality. I'm excited to bring this expertise to
             forward-thinking teams tackling complex technical challenges.
           </p>
@@ -78,7 +79,6 @@
           <div class="skill-tag">Azure Kinect</div>
           <div class="skill-tag">Git</div>
           <div class="skill-tag">Agile</div>
-          <div class="skill-tag">TDD</div>
         </div>
       </div>
     </div>
@@ -92,7 +92,7 @@
         <div class="project-card">
           <h3 class="project-title">AR-Driven Manufacturing Optimization</h3>
           <div class="project-media">
-            <img src="Resources/Projects/SonarV1.png" alt="AR Manufacturing Demo" class="project-image">
+            <img src="Resources/Projects/ARManufacturing.JPEG" alt="AR Manufacturing Demo" class="project-image">
           </div>
           <p class="project-description">
             Designed and deployed augmented reality solutions that increased manufacturing throughput while
@@ -100,11 +100,13 @@
             automated AR-driven workflows for factory operations.
           </p>
           <div class="project-tech">
-            <span class="tech-tag">C#</span>
+            <span class="tech-tag">VB.NET</span>
             <span class="tech-tag">AR/VR</span>
             <span class="tech-tag">SQL</span>
             <span class="tech-tag">PLC Integration</span>
-            <span class="tech-tag">Azure Kinect</span>
+            <span class="tech-tag">Manufacturing Execution System (MES)</span>
+            <span class="tech-tag">Full Stack Development</span>
+            <span class="tech-tag">On-Site Deployment</span>
           </div>
           <div class="project-links">
             <a href="#" class="project-link">Case Study →</a>
@@ -113,10 +115,10 @@
         </div>
 
         <div class="project-card">
-          <h3 class="project-title">ML-Powered Part-Kitting System</h3>
+          <h3 class="project-title">ML-Powered Kitting System</h3>
           <div class="project-media">
-            <video class="project-video" controls poster="Resources/Projects/thumb.JPEG">
-              <source src="Resources/Projects/SonarV1.png" type="video/mp4">
+            <video class="project-video" controls poster="Resources/Projects/AIPartKittingThumb.png">
+              <source src="Resources/Projects/AIPartKitting.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
@@ -124,13 +126,24 @@
             Led development of a machine learning system that reduced assembly time by 32% and achieved
             zero defects in manufacturing. Implemented computer vision and predictive algorithms to
             optimize part selection and placement workflows.
+
+            This is a system that I developed and deployed for a customer that enabled them to make kits with zero
+            defects. The
+            system guides the operator to select a part from the bins and place it in an inspection zone. Above the
+            inspection zone
+            is a machine vision camera that takes a snapshot of the parts displayed. After taking the snapshot, my
+            application runs
+            it through a machine-learning model that I trained to count and identify the parts. Once the vision system
+            verifies that
+            the correct part and quantity have been picked, it allows them to bag it and move on.
           </p>
           <div class="project-tech">
-            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Augmented Reality</span>
             <span class="tech-tag">Machine Learning</span>
             <span class="tech-tag">Computer Vision</span>
-            <span class="tech-tag">Cognex In-Sight</span>
-            <span class="tech-tag">.NET</span>
+            <span class="tech-tag">Cognex Camera Integration</span>
+            <span class="tech-tag">REST API</span>
+            <span class="tech-tag">VB.NET</span>
           </div>
           <div class="project-links">
             <a href="#" class="project-link">Results →</a>
@@ -139,18 +152,28 @@
         </div>
 
         <div class="project-card">
-          <h3 class="project-title">Asynchronous Control System</h3>
+          <h3 class="project-title">Spotlight Warehouse Guidance System</h3>
+          <div class="project-media">
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6995771373461659649?compact=1"
+              height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+          </div>
           <p class="project-description">
-            Implemented a custom control system integrating 30+ sensors, cameras, actuators, and networked
-            components. Realized $17M in cost savings for aerospace operations through optimized automation
-            and real-time monitoring capabilities.
+            I developed this spotlight based warehouse guidance system to assist operators when building assembly kits.
+            The custom
+            application reads a list of picks from the plant's inventory management system (MES) and sends the waypoints
+            to an
+            overhead spotlight that highlights the parts. After picking, the operator uses a barcode scanning glove to
+            verify that
+            they picked the correct part. If the pick was correct, the light flashes green and moves to the next part in
+            the list,
+            if it is not correct it will turn red.
           </p>
           <div class="project-tech">
-            <span class="tech-tag">C++</span>
+            <span class="tech-tag">Augmented Reality</span>
             <span class="tech-tag">Real-time Systems</span>
             <span class="tech-tag">IoT/IIoT</span>
             <span class="tech-tag">TCP/IP</span>
-            <span class="tech-tag">Modbus</span>
+            <span class="tech-tag">Spotlight Hardware Integration</span>
           </div>
           <div class="project-links">
             <a href="#" class="project-link">Architecture →</a>
