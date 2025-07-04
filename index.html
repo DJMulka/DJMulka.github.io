@@ -26,7 +26,6 @@
   <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <div class="hero-image">Doug</div>
       <div class="profile-photo"></div>
       <h1 class="hero-title">Doug Mulka</h1>
       <h2 class="hero-subtitle">Senior Software Developer &amp; Electrical Engineer</h2>
@@ -89,16 +88,11 @@
     <div class="container">
       <h2 class="section-title">Featured Projects</h2>
       <div class="projects-grid">
-        <div class="project-card">
+        <div class="project-card" onclick="window.location.href='project-ar.html'">
           <h3 class="project-title">AR-Driven Manufacturing Optimization</h3>
           <div class="project-media">
-            <img src="Resources/Projects/ARManufacturing.JPEG" alt="AR Manufacturing Demo" class="project-image">
+            <img src="Resources/Projects/AR/ARManufacturing.JPEG" alt="AR Manufacturing Demo" class="project-image">
           </div>
-          <p class="project-description">
-            Designed and deployed augmented reality solutions that increased manufacturing throughput while
-            reducing defects. Integrated with SQL databases, MES platforms, and PLCs to enable fully
-            automated AR-driven workflows for factory operations.
-          </p>
           <div class="project-tech">
             <span class="tech-tag">VB.NET</span>
             <span class="tech-tag">AR/VR</span>
@@ -109,34 +103,18 @@
             <span class="tech-tag">On-Site Deployment</span>
           </div>
           <div class="project-links">
-            <a href="#" class="project-link">Case Study →</a>
-            <a href="#" class="project-link">Patents →</a>
+            <a href="project-ar.html" class="project-link">Technical Details →</a>
           </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-card" onclick="window.location.href='project-ml.html'">
           <h3 class="project-title">ML-Powered Kitting System</h3>
           <div class="project-media">
-            <video class="project-video" controls poster="Resources/Projects/AIPartKittingThumb.png">
-              <source src="Resources/Projects/AIPartKitting.mp4" type="video/mp4">
+            <video class="project-video" controls poster="Resources/Projects/ML/AIPartKittingThumb.png">
+              <source src="Resources/Projects/ML/AIPartKitting.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
-          <p class="project-description">
-            Led development of a machine learning system that reduced assembly time by 32% and achieved
-            zero defects in manufacturing. Implemented computer vision and predictive algorithms to
-            optimize part selection and placement workflows.
-
-            This is a system that I developed and deployed for a customer that enabled them to make kits with zero
-            defects. The
-            system guides the operator to select a part from the bins and place it in an inspection zone. Above the
-            inspection zone
-            is a machine vision camera that takes a snapshot of the parts displayed. After taking the snapshot, my
-            application runs
-            it through a machine-learning model that I trained to count and identify the parts. Once the vision system
-            verifies that
-            the correct part and quantity have been picked, it allows them to bag it and move on.
-          </p>
           <div class="project-tech">
             <span class="tech-tag">Augmented Reality</span>
             <span class="tech-tag">Machine Learning</span>
@@ -146,28 +124,16 @@
             <span class="tech-tag">VB.NET</span>
           </div>
           <div class="project-links">
-            <a href="#" class="project-link">Results →</a>
-            <a href="#" class="project-link">Technical Details →</a>
+            <a href="project-ml.html" class="project-link">Technical Details →</a>
           </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-card" onclick="window.location.href='project-spotlight.html'">
           <h3 class="project-title">Spotlight Warehouse Guidance System</h3>
           <div class="project-media">
             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6995771373461659649?compact=1"
-              height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+              height="200px" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
           </div>
-          <p class="project-description">
-            I developed this spotlight based warehouse guidance system to assist operators when building assembly kits.
-            The custom
-            application reads a list of picks from the plant's inventory management system (MES) and sends the waypoints
-            to an
-            overhead spotlight that highlights the parts. After picking, the operator uses a barcode scanning glove to
-            verify that
-            they picked the correct part. If the pick was correct, the light flashes green and moves to the next part in
-            the list,
-            if it is not correct it will turn red.
-          </p>
           <div class="project-tech">
             <span class="tech-tag">Augmented Reality</span>
             <span class="tech-tag">Real-time Systems</span>
@@ -176,18 +142,12 @@
             <span class="tech-tag">Spotlight Hardware Integration</span>
           </div>
           <div class="project-links">
-            <a href="#" class="project-link">Architecture →</a>
-            <a href="#" class="project-link">Impact Report →</a>
+            <a href="project-spotlight.html" class="project-link">Technical Details →</a>
           </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-card" onclick="window.location.href='project-sonar.html'">
           <h3 class="project-title">Automated Diagnostic Tool</h3>
-          <p class="project-description">
-            Invented an automated internal diagnostic and pre-integration tool that cut system configuration
-            time by over 70%. Features automated component testing, configuration validation, and
-            comprehensive reporting for manufacturing systems.
-          </p>
           <div class="project-tech">
             <span class="tech-tag">Visual Basic</span>
             <span class="tech-tag">WinForms</span>
@@ -196,18 +156,12 @@
             <span class="tech-tag">SQL</span>
           </div>
           <div class="project-links">
-            <a href="#" class="project-link">Demo →</a>
-            <a href="#" class="project-link">Documentation →</a>
+            <a href="project-sonar.html" class="project-link">Technical Details →</a>
           </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-card" onclick="window.location.href='project-optics.html'">
           <h3 class="project-title">Precision Optical Alignment System</h3>
-          <p class="project-description">
-            Developed a microcontroller-based precision optical alignment stage actuator achieving 0.01 cm
-            precision for ADAS applications. Integrated with LiDAR and radar systems for automotive
-            sensor calibration and testing.
-          </p>
           <div class="project-tech">
             <span class="tech-tag">C</span>
             <span class="tech-tag">Arduino</span>
@@ -216,18 +170,12 @@
             <span class="tech-tag">MATLAB</span>
           </div>
           <div class="project-links">
-            <a href="#" class="project-link">Specifications →</a>
-            <a href="#" class="project-link">Testing Data →</a>
+            <a href="project-optics.html" class="project-link">Technical Details →</a>
           </div>
         </div>
 
-        <div class="project-card">
+        <div class="project-card" onclick="window.location.href='project-package.html'">
           <h3 class="project-title">Package Management Automation</h3>
-          <p class="project-description">
-            Created a comprehensive package management tool to automate work instruction transfers for
-            system cloning and maintenance. Eliminated manual migration work and reduced deployment
-            errors across manufacturing installations.
-          </p>
           <div class="project-tech">
             <span class="tech-tag">C#</span>
             <span class="tech-tag">Database Design</span>
@@ -236,8 +184,7 @@
             <span class="tech-tag">DevOps</span>
           </div>
           <div class="project-links">
-            <a href="#" class="project-link">Workflow →</a>
-            <a href="#" class="project-link">GitHub →</a>
+            <a href="project-package.html" class="project-link">Technical Details →</a>
           </div>
         </div>
       </div>

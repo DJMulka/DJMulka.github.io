@@ -8,10 +8,10 @@
      --bg-primary: #0a0a0f;
      --bg-secondary: #1a1a2e;
      --bg-card: #16213e;
-     --accent-primary: #64ffda;
-     --accent-secondary: #bb86fc;
      --text-primary: #ffffff;
      --text-secondary: #a0a0a0;
+     --accent-primary: #64ffda;
+     --accent-secondary: #bb86fc;
      --text-muted: #6b7280;
      --border: #2d3748;
      --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -312,12 +312,6 @@
  .project-media:empty {
      display: none;
      margin-bottom: 0;
- }
-
- .project-description {
-     color: var(--text-secondary);
-     margin-bottom: 1.5rem;
-     line-height: 1.6;
  }
 
  .project-tech {
