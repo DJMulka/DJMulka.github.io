@@ -16,10 +16,10 @@
             <div class="project-header">
                 <h1>ML-Powered Kitting System</h1>
                 <div class="project-meta">
-                    <div class="meta-item">Duration: </div>
-                    <div class="meta-item">Team Size: </div>
-                    <div class="meta-item">Industry: </div>
-                    <div class="meta-item">Status: </div>
+                    <div class="meta-item">Duration: 6 months</div>
+                    <div class="meta-item">Role: Lead Engineer</div>
+                    <div class="meta-item">Industry: Aerospace</div>
+                    <div class="meta-item">Status: Deployed</div>
                 </div>
             </div>
         </div>
@@ -28,16 +28,11 @@
         <div class="carousel-container">
             <div class="carousel">
                 <div class="carousel-images">
-                    <img src="https://via.placeholder.com/800x500/1a1a1a/64ffda?text=AR+Manufacturing+Demo"
-                        alt="AR Manufacturing Demo" class="carousel-image active">
-                    <img src="https://via.placeholder.com/800x500/1a1a1a/ff6b6b?text=Factory+Floor+View"
-                        alt="Factory Floor View" class="carousel-image">
-                    <img src="https://via.placeholder.com/800x500/1a1a1a/64ffda?text=AR+Interface+Design"
-                        alt="AR Interface Design" class="carousel-image">
-                    <img src="https://via.placeholder.com/800x500/1a1a1a/ff6b6b?text=System+Architecture"
-                        alt="System Architecture" class="carousel-image">
-                    <img src="https://via.placeholder.com/800x500/1a1a1a/64ffda?text=Performance+Results"
-                        alt="Performance Results" class="carousel-image">
+                    <img src="Resources/Projects/ML/Bench.JPEG" alt="Whole Bench" class="carousel-image active">
+                    <img src="Resources/Projects/ML/Bins.JPEG" alt="Bins Closeup" class="carousel-image">
+                    <img src="Resources/Projects/ML/AIPartKittingThumb.png" alt="AI Software" class="carousel-image">
+                    <img src="Resources/Projects/ML/PickPartStep.png" alt="Guided Part Picking" class="carousel-image">
+                    <img src="Resources/Projects/ML/UISreen.png" alt="Closeup on UI" class="carousel-image">
                 </div>
                 <button class="carousel-nav prev" onclick="changeSlide(-1)">‹</button>
                 <button class="carousel-nav next" onclick="changeSlide(1)">›</button>
@@ -51,83 +46,95 @@
             </div>
         </div>
 
+
+
         <!-- Project Content -->
         <div class="project-content">
             <div class="content-section">
-                <h2>Project Overview</h2>
-                <p>
-                    Led development of a machine learning system that reduced assembly time by 32% and achieved zero
-                    defects in
-                    manufacturing. Implemented computer vision and predictive algorithms to optimize part selection and
-                    placement workflows.
-                    This is a system that I developed and deployed for a customer that enabled them to make kits with
-                    zero defects. The
-                    system guides the operator to select a part from the bins and place it in an inspection zone. Above
-                    the inspection zone
-                    is a machine vision camera that takes a snapshot of the parts displayed. After taking the snapshot,
-                    my application runs
-                    it through a machine-learning model that I trained to count and identify the parts. Once the vision
-                    system verifies that
-                    the correct part and quantity have been picked, it allows them to bag it and move on.
-                </p>
-                <p>
-                    Lorem Ipsum
+                <h2>Project Demo & Overview</h2>
+                <div class="video-container">
+                    <video class="demo-video" controls poster="Resources/Projects/ML/AIPartKittingThumb.png">
+                        <source src="Resources/Projects/ML/AIPartKitting.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p class="video-description">
+                    This is a system that I developed for an aerospace customer that needed help reducing errors in
+                    prepacked kits
+                    of assembly hardware. Kits were arriving at the factory with wrong quantities, wrong parts or
+                    missing parts all together.
+                    This system addresses their needs by providing augmented reality based guidance to indicate which
+                    parts to pick.
+                    This system also validates the correct picks were made by using a computer vision camera to take a
+                    snapshot of the presented parts and identify them with a machine learning model.
                 </p>
             </div>
 
             <div class="content-section">
                 <h2>Technical Implementation</h2>
                 <div class="tech-stack">
-                    <span class="tech-tag">Stuff</span>
-                    <span class="tech-tag">More Stuff</span>
+                    <span class="tech-tag">Augmented Reality</span>
+                    <span class="tech-tag">Machine Learning</span>
+                    <span class="tech-tag">Computer Vision</span>
+                    <span class="tech-tag">Cognex Camera Integration</span>
+                    <span class="tech-tag">REST API</span>
+                    <span class="tech-tag">VB.NET</span>
                 </div>
 
                 <h3>Key Features</h3>
                 <p>
-                    <strong>Thing 1:</strong> Lorem Ipsum
+                    <strong>Machine-Learning Part Identification:</strong> On prem deployed Machine-Learning model
+                    validated that the correct part and quantity was selected by the operator
                 </p>
                 <p>
-                    <strong>Thing 2:</strong> Lorem Ipsum
+                    <strong>Augmented Reality Kitting Guidance:</strong> Projected light guides the user to select parts
+                    from the appropriate bins ensuring the correct part is chosen
                 </p>
                 <p>
-                    <strong>Thing 3:</strong> Lorem Ipsum
+                    <strong>Label Printer & Barcode Scanner Integration:</strong> Part bag labels and kit labels are
+                    automatically generated and printed by using data from the plant management system to automate the
+                    kitting process
                 </p>
             </div>
 
             <div class="content-section">
                 <h2>Results &amp; Impact</h2>
                 <p>
-                    The implementation delivered measurable improvements across multiple key performance indicators:
+                    The deployment of this system delivered significant improvements including:
                 </p>
-                <ul style="color: #bb86fc; margin-left: 2rem; margin-bottom: 1rem;">
-                    <li>35% increase in manufacturing throughput</li>
-                    <li>60% reduction in quality defects</li>
-                    <li>50% decrease in worker training time</li>
-                    <li>25% improvement in overall equipment effectiveness (OEE)</li>
+                <ul style="color: #a0a0a0; margin-left: 2rem; margin-bottom: 1rem;">
+                    <li>32% reduction in time to assemble kits</li>
+                    <li>0 defects achieved across thousands of delivered kits using no fault forward approach</li>
+                    <li>Ability to have even untrained operators pack kits</li>
                 </ul>
                 <p>
-                    Lorem Ipsum
+                    This system has been running successfully on-site since April of 2023.
                 </p>
             </div>
 
             <div class="content-section">
                 <h2>Challenges &amp; Solutions</h2>
                 <p>
-                    <strong>Challenge:</strong> Lorem Ipsum
+                    <strong>Challenge: </strong> Kits being delivered with the wrong parts and quantities.
                 </p>
                 <p>
-                    <strong>Solution:</strong> Lorem Ipsum
+                    <strong>Solution:</strong> Use a trained machine learning model to properly identify and count the
+                    correct number of parts have been picked.
                 </p>
                 <p>
-                    <strong>Challenge:</strong> Lorem Ipsum
+                    <strong>Challenge: </strong> Incorrect parts were ending up in bins labeled for other parts.
                 </p>
                 <p>
-                    <strong>Solution:</strong> Lorem Ipsum
+                    <strong>Solution:</strong> Operators would scan a barcode for the part they wanted to restock and
+                    the system would use augmented reality guidance to highlight the correct bin.
                 </p>
-            </div>
-
-            <div class="project-links">
-                <a href="#" class="project-link">Lorem Ipsum</a>
+                <p>
+                    <strong>Challenge:</strong> Manufacturing site cannot run a cloud based model.
+                </p>
+                <p>
+                    <strong>Solution:</strong> Train a model on the cloud and deploy it locally in the manufacturing
+                    site.
+                </p>
             </div>
         </div>
     </div>
