@@ -167,7 +167,7 @@
      border-radius: 50%;
      background-image: url(Resources/profile.jpg);
      background-size: cover;
-     background-position: center;
+     background-position: top;
      margin: 2rem auto;
      display: flex;
      align-items: center;
@@ -198,10 +198,8 @@
 
  /* About Section */
  .about-content {
-     display: grid;
-     grid-template-columns: 1fr 2fr;
+     text-align: center;
      gap: 4rem;
-     align-items: center;
  }
 
  .about-text {
