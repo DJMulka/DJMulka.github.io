@@ -16,10 +16,10 @@
             <div class="project-header">
                 <h1>Package Management Automation</h1>
                 <div class="project-meta">
-                    <div class="meta-item">Duration: </div>
-                    <div class="meta-item">Team Size: </div>
-                    <div class="meta-item">Industry: </div>
-                    <div class="meta-item">Status: </div>
+                    <div class="meta-item">Duration: 1 year</div>
+                    <div class="meta-item">Role: Lead Developer</div>
+                    <div class="meta-item">Categoty: Internal Tool</div>
+                    <div class="meta-item">Status: Patent-Pending</div>
                 </div>
             </div>
         </div>
@@ -28,8 +28,8 @@
         <div class="carousel-container">
             <div class="carousel">
                 <div class="carousel-images">
-                    <img src="https://via.placeholder.com/800x500/1a1a1a/64ffda?text=AR+Manufacturing+Demo"
-                        alt="AR Manufacturing Demo" class="carousel-image active">
+                    <img src="Resources/Projects/Package/PackageManagerHome.jpg" alt="Package Manager Home"
+                        class="carousel-image active">
                     <img src="https://via.placeholder.com/800x500/1a1a1a/ff6b6b?text=Factory+Floor+View"
                         alt="Factory Floor View" class="carousel-image">
                     <img src="https://via.placeholder.com/800x500/1a1a1a/64ffda?text=AR+Interface+Design"
@@ -56,35 +56,56 @@
             <div class="content-section">
                 <h2>Project Overview</h2>
                 <p>
-                    Created a comprehensive package management tool to automate work instruction transfers for system
-                    cloning and
-                    maintenance. Eliminated manual migration work and reduced deployment errors across manufacturing
-                    installations.
+                    The Package Manager Tool is a critical software utility I developed to solve a major bottleneck in
+                    scaling augmented
+                    reality work instruction deployments across multiple systems. LightGuide's core platform enables
+                    users to create
+                    detailed, interactive work instructions using XML-based workflows with embedded assets like
+                    graphics, text, vision
+                    tools, and hardware commands. However, moving these workflows between stations with differing
+                    configurations led to
+                    asset mismatches and calibration errors.
                 </p>
                 <p>
-                    Lorem Ipsum
+                    To address this, I built a robust packaging system that automates the collection, export, and import
+                    of workflows and
+                    their associated assets. This tool ensures consistent behavior across varying hardware setups and
+                    has become essential
+                    for customers scaling AR solutions across production lines with non-identical systems.
                 </p>
             </div>
 
             <div class="content-section">
                 <h2>Technical Implementation</h2>
                 <div class="tech-stack">
-                    <span class="tech-tag">C#</span>
-                    <span class="tech-tag">Database Design</span>
-                    <span class="tech-tag">API Communication</span>
-                    <span class="tech-tag">PowerBI</span>
-                    <span class="tech-tag">DevOps</span>
+                    <span class="tech-tag">VB.NET</span>
+                    <span class="tech-tag">UI/UX Development</span>
+                    <span class="tech-tag">File Packaging & Compression</span>
+                    <span class="tech-tag">Asset Dependency Resolution</span>
+                    <span class="tech-tag">System Calibration</span>
+                    <span class="tech-tag">Scalable Workflow Distribution</span>
                 </div>
 
                 <h3>Key Features</h3>
                 <p>
-                    <strong>Thing 1:</strong> Lorem Ipsum
+                    <strong>Automated Asset Collection:</strong> Implements a custom algorithm to parse a work
+                    instruction XML file, identify all referenced assets, and collect them
+                    into a single exportable package.
                 </p>
                 <p>
-                    <strong>Thing 2:</strong> Lorem Ipsum
+                    <strong>Custom Package Format with Metadata:</strong> Packages all assets into a ZIP archive with a
+                    custom file extension and icon, making it easy to recognize, share, and
+                    import across systems.
                 </p>
                 <p>
-                    <strong>Thing 3:</strong> Lorem Ipsum
+                    <strong>Intelligent Recalibration Utility:</strong> Upon import, users are guided through a
+                    recalibration step that aligns graphics to the new station's hardware
+                    setup,ensuring accuracy even across non-identical systems.
+                </p>
+                <p>
+                    <strong>Scalability for Multi-Station Deployments:</strong> Supports mass deployment of shared work
+                    instructions, reducing authoring overhead for customers rolling out AR systems
+                    across full assembly lines.
                 </p>
             </div>
 
@@ -94,34 +115,41 @@
                     The implementation delivered measurable improvements across multiple key performance indicators:
                 </p>
                 <ul style="color: #a0a0a0; margin-left: 2rem; margin-bottom: 1rem;">
-                    <li>35% increase in manufacturing throughput</li>
-                    <li>60% reduction in quality defects</li>
-                    <li>50% decrease in worker training time</li>
-                    <li>25% improvement in overall equipment effectiveness (OEE)</li>
+                    <li>Simplified Workflow Portability</li>
+                    <li>Improved Deployment Scalability</li>
+                    <li>Reduced Configuration Errors</li>
                 </ul>
-                <p>
-                    Lorem Ipsum
-                </p>
             </div>
 
             <div class="content-section">
                 <h2>Challenges &amp; Solutions</h2>
                 <p>
-                    <strong>Challenge:</strong> Lorem Ipsum
+                    <strong>Challenge:</strong> Workflows referenced numerous distributed assets that weren't bundled
+                    together, causing transfer issues.
                 </p>
                 <p>
-                    <strong>Solution:</strong> Lorem Ipsum
+                    <strong>Solution:</strong> Designed and implemented a dependency-wrangling algorithm that
+                    recursively identifies and collects all required assets
+                    starting from a root instruction file.
                 </p>
                 <p>
-                    <strong>Challenge:</strong> Lorem Ipsum
+                    <strong>Challenge:</strong> Hardware variations between stations made it difficult to maintain
+                    consistent visual alignment.
                 </p>
                 <p>
-                    <strong>Solution:</strong> Lorem Ipsum
+                    <strong>Solution:</strong> Introduced a recalibration process on import, aligning graphics based on
+                    the new station's calibration to preserve
+                    visual fidelity and spatial accuracy.
                 </p>
-            </div>
-
-            <div class="project-links">
-                <a href="#" class="project-link">Lorem Ipsum</a>
+                <p>
+                    <strong>Challenge:</strong> Customers needed a way to deploy instructions at scale without manual
+                    reconfiguration.
+                </p>
+                <p>
+                    <strong>Solution:</strong> Created a standardized, portable package format that could be dropped
+                    into any station and executed without additional
+                    setup or asset alignment.
+                </p>
             </div>
         </div>
     </div>

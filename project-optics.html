@@ -16,10 +16,10 @@
             <div class="project-header">
                 <h1>Precision Optical Alignment System</h1>
                 <div class="project-meta">
-                    <div class="meta-item">Duration: </div>
-                    <div class="meta-item">Team Size: </div>
-                    <div class="meta-item">Industry: </div>
-                    <div class="meta-item">Status: </div>
+                    <div class="meta-item">Duration: 3 months</div>
+                    <div class="meta-item">Role: Lead Engineer</div>
+                    <div class="meta-item">Industry: Automotive Optics</div>
+                    <div class="meta-item">Status: Completed</div>
                 </div>
             </div>
         </div>
@@ -28,16 +28,12 @@
         <div class="carousel-container">
             <div class="carousel">
                 <div class="carousel-images">
-                    <img src="https://via.placeholder.com/800x500/1a1a1a/64ffda?text=AR+Manufacturing+Demo"
-                        alt="AR Manufacturing Demo" class="carousel-image active">
-                    <img src="https://via.placeholder.com/800x500/1a1a1a/ff6b6b?text=Factory+Floor+View"
-                        alt="Factory Floor View" class="carousel-image">
-                    <img src="https://via.placeholder.com/800x500/1a1a1a/64ffda?text=AR+Interface+Design"
-                        alt="AR Interface Design" class="carousel-image">
-                    <img src="https://via.placeholder.com/800x500/1a1a1a/ff6b6b?text=System+Architecture"
-                        alt="System Architecture" class="carousel-image">
-                    <img src="https://via.placeholder.com/800x500/1a1a1a/64ffda?text=Performance+Results"
-                        alt="Performance Results" class="carousel-image">
+                    <img src="Resources/Projects/Optics/BuildBox1.JPG" alt="Optics Build" class="carousel-image active">
+                    <img src="Resources/Projects/Optics/FullCabinet2.JPG" alt="Full Cabinet" class="carousel-image">
+                    <img src="Resources/Projects/Optics/Cabinet.JPG" alt="Prototype Cabinet" class="carousel-image">
+                    <img src="Resources/Projects/Optics/InstalledBox.JPG" alt="Box Installed in Cabinet"
+                        class="carousel-image">
+                    <img src="Resources/Projects/Optics/MoreBoard.JPG" alt="Proto Board" class="carousel-image">
                 </div>
                 <button class="carousel-nav prev" onclick="changeSlide(-1)">‹</button>
                 <button class="carousel-nav next" onclick="changeSlide(1)">›</button>
@@ -54,71 +50,84 @@
         <!-- Project Content -->
         <div class="project-content">
             <div class="content-section">
+                <h2>Project Demo</h2>
+                <div class="video-container">
+                    <video class="demo-video" controls poster="Resources/Projects/Optics/ProtoBoard.JPG">
+                        <source src="Resources/Projects/Optics/Demo Bug.MOV" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <div class="content-section">
                 <h2>Project Overview</h2>
                 <p>
-                    Developed a microcontroller-based precision optical alignment stage actuator achieving 0.01 cm
-                    precision for ADAS
-                    applications. Integrated with LiDAR and radar systems for automotive sensor calibration and testing.
+                    The Optical Alignment System is a precision hardware/software integration project I designed and
+                    built to enable
+                    sub-millimeter accurate positioning of a camera calibration test pattern. Developed to support
+                    high-accuracy camera
+                    calibration, the system allows the user to input a desired distance from the lens, then
+                    automatically
+                    positions the test plate to that exact location—accurate to within 0.01 cm.
                 </p>
                 <p>
-                    Lorem Ipsum
+                    Working from an existing mechanical fixture designed by the team, I engineered the motion control
+                    system, electronics,
+                    firmware, and user interface from the ground up. The completed system now plays a vital role in
+                    ensuring consistent and
+                    repeatable camera calibration in a lab environment.
                 </p>
             </div>
 
             <div class="content-section">
                 <h2>Technical Implementation</h2>
                 <div class="tech-stack">
-                    <span class="tech-tag">C</span>
                     <span class="tech-tag">Arduino</span>
-                    <span class="tech-tag">I2C</span>
+                    <span class="tech-tag">Stepper Motors & Motor Drivers</span>
+                    <span class="tech-tag">Precision Motion Control</span>
+                    <span class="tech-tag">3D Printing</span>
+                    <span class="tech-tag">Full Stack Development</span>
+                    <span class="tech-tag">Mechatronics / Electro-mechanical Systems</span>
+                    <span class="tech-tag">Embedded Development</span>
                 </div>
 
                 <h3>Key Features</h3>
                 <p>
-                    <strong>Thing 1:</strong> Lorem Ipsum
+                    <strong>High-Precision Positioning Mechanism:</strong> Uses four stepper motors to drive threaded
+                    rods attached to each corner of the test plate, enabling fine-tuned movement
+                    down to 0.01 cm of resolution.
                 </p>
                 <p>
-                    <strong>Thing 2:</strong> Lorem Ipsum
+                    <strong>Custom Embedded Control System:</strong> An Arduino microcontroller serves as the control
+                    hub, driving the motors and handling positional logic with consistent
+                    accuracy and responsiveness.
                 </p>
                 <p>
-                    <strong>Thing 3:</strong> Lorem Ipsum
-                </p>
-            </div>
-
-            <div class="content-section">
-                <h2>Results &amp; Impact</h2>
-                <p>
-                    The implementation delivered measurable improvements across multiple key performance indicators:
-                </p>
-                <ul style="color: #a0a0a0; margin-left: 2rem; margin-bottom: 1rem;">
-                    <li>35% increase in manufacturing throughput</li>
-                    <li>60% reduction in quality defects</li>
-                    <li>50% decrease in worker training time</li>
-                    <li>25% improvement in overall equipment effectiveness (OEE)</li>
-                </ul>
-                <p>
-                    Lorem Ipsum
+                    <strong>Fully Integrated Hardware Design:</strong> Designed, wired, and enclosed the system with a
+                    custom 3D-printed housing, providing a clean and durable solution
+                    suitable for repeatable use.
                 </p>
             </div>
 
             <div class="content-section">
                 <h2>Challenges &amp; Solutions</h2>
                 <p>
-                    <strong>Challenge:</strong> Lorem Ipsum
+                    <strong>Challenge:</strong> Needed to achieve extremely precise positioning for optical calibration.
                 </p>
                 <p>
-                    <strong>Solution:</strong> Lorem Ipsum
+                    <strong>Solution:</strong> Designed a threaded rod system with high-resolution stepper motors and
+                    fine-pitch threads, controlled via Arduino for
+                    repeatable accuracy.
                 </p>
                 <p>
-                    <strong>Challenge:</strong> Lorem Ipsum
+                    <strong>Challenge:</strong> Ensure synchronization and even motion across all four corners of the
+                    plate.
                 </p>
                 <p>
-                    <strong>Solution:</strong> Lorem Ipsum
+                    <strong>Solution:</strong> Implemented firmware logic to drive all motors in lockstep and built
+                    real-time feedback into the system to maintain
+                    alignmen
                 </p>
-            </div>
-
-            <div class="project-links">
-                <a href="#" class="project-link">Lorem Ipsum</a>
             </div>
         </div>
     </div>
