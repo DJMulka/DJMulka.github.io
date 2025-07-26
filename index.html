@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Doug Mulka - Software Developer</title>
+  <link rel="icon" type="image/webp" href="Resources/logo.webp">
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
@@ -12,7 +13,10 @@
   <!-- Navigation -->
   <nav class="navbar">
     <div class="nav-container">
-      <div class="logo">Doug Mulka</div>
+      <div class="nav-logo">
+        <img src="Resources/logo.webp" class="logo">
+        <div class="nav-title">Doug Mulka</div>
+      </div>
       <ul class="nav-links">
         <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -44,25 +48,31 @@
       <h2 class="section-title">About Me</h2>
       <div class="about-content">
         <div class="about-text">
-          <p> I'm a Senior Software Developer with a strong foundation in electrical engineering and deep expertise in
-            augmented
-            reality, advanced sensing, and connected devices. I specialize in building intelligent, immersive systems
-            that blend
-            hardware and software to enhance industrial processes and streamline human-machine interaction.
+          <p> I'm a Senior Software Developer with an electrical engineering background and a passion for building
+            immersive,
+            intelligent systems at the intersection of augmented reality, automation, and advanced sensing. Whether it's
+            guiding
+            factory operators with real-time AR overlays or integrating edge devices for smarter decision-making, I
+            thrive on
+            bringing connected technologies to life.
           </p>
           <p> My experience spans automotive manufacturing at General Motors, ADAS development at Delphi/Aptiv, and
             pioneering
-            AR-driven automation at LightGuide Inc. This multidisciplinary background allows me to craft end-to-end
-            solutions that
-            integrate real-time sensor data, edge computing, and AR to guide operators, improve quality, and boost
-            productivity.
-          </p>
-          <p> I hold two pending patents in automation and have led the development of systems that have delivered
-            multimillion-dollar cost savings, dramatic throughput gains, and improved product consistency. I'm driven to
-            push the
-            boundaries of connected industrial technology and excited to contribute to teams solving complex,
-            forward-looking
-            challenges.
+            AR-driven automation at LightGuide Inc. This multidisciplinary background enables me to build end-to-end
+            solutions
+            that merge real-time sensor data, edge computing, and augmented reality to guide operators, improve quality,
+            and boost
+            productivity. I've led the development of connected systems that have delivered multimillion-dollar cost
+            savings,
+            significant throughput gains, and improved product consistency. This work has resulted in two pending
+            patents in
+            automation software tooling. I'm driven to push the boundaries of connected industrial technology and
+            excited to contribute
+            to teams solving complex, cutting-edge challenges. </p>
+          <p>
+            Outside of work, I'm an avid skier, climber, and builder who loves to travel. I bring the same energy and
+            curiosity to my career as I do to the
+            outdoors: always exploring, always improving.
           </p>
         </div>
       </div>
@@ -152,21 +162,55 @@
       <div class="experience-timeline">
         <div class="experience-item">
           <div class="experience-card">
+            <h3 class="experience-title">Lead Project Engineer</h3>
+            <div class="experience-company">LightGuide Inc.</div>
+            <div class="experience-period">2025 - current</div>
+            <p class="experience-description">
+              Lead engineer driving the global scale-up of AR systems and enterprise-level adoption. Report directly to
+              the CTO and own end-to-end deployment strategy for connected, sensor-driven workstations. Developed
+              standardized,
+              self-calibrating platforms that integrate vision tools, live production data, and AI-powered
+              diagnostics. Partnered with software, applications, and operations teams to streamline rollout, authoring,
+              and system maintenance. Deliver technical documentation, root cause analysis, and corrective actions to
+              ensure uptime
+              and long-term
+              value.
+            </p>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-card">
             <h3 class="experience-title">Senior Software Developer</h3>
             <div class="experience-company">LightGuide Inc.</div>
-            <div class="experience-period">2021 - 2025</div>
+            <div class="experience-period">2023 - 2025</div>
+            <p class="experience-description">
+              Led development of scalable AR infrastructure supporting distributed deployment of sensor-driven,
+              connected workstations. Designed and owned multiple core diagnostic and provisioning tools used across
+              every AR
+              system shipped, including patent-pending software for system configuration, monitoring, and calibration.
+              Owned full product
+              lifecycle from design to deployment. Spearheaded the development of scalable software for distributing AR
+              work instructions across varying
+              hardware configurations, supporting enterprise-scale rollouts. Filed 2 patents related to automation and
+              AR
+              system configuration.
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-card">
+            <h3 class="experience-title">Software Developer</h3>
+            <div class="experience-company">LightGuide Inc.</div>
+            <div class="experience-period">2021 - 2023</div>
             <p class="experience-description">
               Developed and deployed intelligent augmented reality systems for manufacturing environments, specializing
-              in the
-              integration of connected devices, sensor-driven workflows, and real-time feedback. Built tools that
-              unified AR
-              projection, hardware calibration, and machine data to streamline operator guidance and boost process
-              accuracy.
-              Spearheaded the development of scalable software for distributing AR work instructions across varying
-              hardware
-              configurations, supporting enterprise-scale rollouts. Filed 2 patents related to automation and AR
-              deployment, and
-              contributed to measurable cost savings and defect reduction across aerospace and industrial clients.
+              in the integration of connected devices, sensor-driven workflows, and real-time feedback. Built tools that
+              unified AR projection, hardware calibration, and machine data to streamline operator guidance and boost
+              process
+              accuracy. Contributed to measurable cost savings and defect reduction across aerospace/defense and
+              industrial clients.
+              Promoted after demonstrating leadership in internal tooling and automation reliability.
             </p>
           </div>
         </div>
@@ -178,12 +222,11 @@
             <div class="experience-period">2019 - 2020</div>
             <p class="experience-description">
               Gained hands-on experience with connected factory systems by commissioning robotic workstations using
-              Fanuc robots and
-              Allen-Bradley PLCs. Focused on improving real-time control logic and sensor integration to enhance
-              production uptime and
-              reduce bottlenecks. Developed a deep understanding of advanced sensing in high-throughput environments,
-              with an emphasis
-              on system reliability, safety interlocks, and diagnostic automation.
+              Fanuc robots and Allen-Bradley PLCs. Focused on improving real-time control logic and sensor integration
+              to enhance
+              production uptime and reduce bottlenecks. Developed a deep understanding of advanced sensing in
+              high-throughput environments,
+              with an emphasis on system reliability, safety interlocks, and diagnostic automation.
             </p>
           </div>
         </div>
@@ -195,14 +238,13 @@
             <div class="experience-period">2017 - 2019</div>
             <p class="experience-description">
               Engineered precision sensor calibration and alignment systems for automotive applications, leveraging
-              microcontrollers
-              and motor control to achieve sub-millimeter accuracy. Played a key role in ADAS development by collecting
-              and analyzing
-              large volumes of sensor data, including radar, LiDAR, and camera inputs to improve feature performance and
-              ensure system
-              integrity under real-world driving conditions. Developed strong cross-functional skills in sensing
-              technologies and
-              connected embedded systems.
+              microcontrollers and motor control to achieve sub-millimeter accuracy. Played a key role in ADAS
+              development by collecting
+              and analyzing large volumes of sensor data, including radar, LiDAR, and camera inputs to improve feature
+              performance and
+              ensure system integrity under real-world driving conditions. Developed strong cross-functional skills in
+              sensing
+              technologies and connected embedded systems.
             </p>
           </div>
         </div>
@@ -214,12 +256,11 @@
             <div class="experience-period">Graduated 2020 - Cum Laude</div>
             <p class="experience-description">
               Built a strong academic foundation in control systems, embedded development, and signal processing—areas
-              that directly
-              support advanced sensing and connected device applications. Completed a thesis focused on the development
-              of a complex
-              software system for augmented reality deployment, blending electrical engineering knowledge with modern
-              software
-              practices.
+              that directly support advanced sensing and connected device applications. Completed a thesis focused on
+              the development
+              of a complex software system for augmented reality deployment, blending electrical engineering knowledge
+              with modern
+              software practices.
             </p>
           </div>
         </div>
@@ -235,7 +276,8 @@
         <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 2rem;">
           I'm passionate about solving complex technical challenges and creating innovative solutions that drive real
           business impact.
-          Let's discuss how my expertise in AR, automation, and machine learning can benefit your organization.
+          Let's discuss how my expertise in augmented reality, automation, and connected devices can benefit your
+          organization.
         </p>
         <div class="contact-links">
           <a href="mailto:dougmulka@gmail.com" target="_blank" class="contact-link">
